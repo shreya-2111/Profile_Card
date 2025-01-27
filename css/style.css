@@ -1,0 +1,96 @@
+*{
+    margin: 0; padding: 0;
+    box-sizing: border-box;
+    transition: all .2s linear;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    color: #fff;
+}
+
+.box-container{
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background:url(../image/img2.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.box-container .box{
+    width: 700px;
+    display: flex;
+    align-items: center;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px #0009;
+    backdrop-filter: blur(5px);
+    background: rgba(255,255,255,.2);
+    overflow: hidden;
+    position: relative;
+}
+
+.box-container .box .image{
+    padding: 60px;
+    margin-right: 40px;
+    border-radius: 0 50px 50px 0;
+    background: #fff2;
+    height: 270px;
+}
+
+.box-container .image .img{
+    
+   text-align: center;
+}
+
+.box-container .box .content .title{
+    color: #fff;
+    padding: 5px 0;
+    font-size: 33px;
+    text-transform: capitalize;
+}
+
+.box-container .box .content .post{
+    display: block;
+    font-size: 20px;
+    color: #fff9;
+    margin-bottom: 30px;
+}
+
+.box-container .box .content a{
+    display: block;
+    color: #fff9;
+    font-size: 20px;
+}
+
+.box-container .box .content a i{
+    color: #fff;
+    padding: 7px 5px;
+}
+
+.box-container .box .content a:hover{
+    color: #fff;
+}
+
+.box-container .box .share{
+    position: absolute;
+    top: 50%; right: 30px;
+    transform: translate(0,-50%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-flow: column;
+    background: #fff3;
+    border-radius: 50px;
+    height: 220px;
+    width: 45px;
+}
+
+.box-container .box .share a{
+    margin: 15px;
+    color: #fff;
+    font-size: 23px;
+}
+
+.box-container .box .share a:hover{
+    color: #fff6;
+}
